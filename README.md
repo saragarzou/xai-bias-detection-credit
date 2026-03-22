@@ -1,4 +1,4 @@
-# XAI Bias Detection: SHAP vs. DiCE
+# Bias Detection in Credit Scoring: SHAP vs. DiCE
 
 ## Overview
 This repository contains the code demonstration for the Explainable AI assignment. It explores the research question: *To what extent do counterfactual explanations provide more effective detection of algorithmic bias for denied loan applicants compared to the feature-attribution insights provided by SHAP?*
