@@ -9,17 +9,27 @@ The code trains a Random Forest model on a credit risk dataset and applies two e
 ## Requirements and Installation
 Ensure you have Python 3.8 or higher installed. You will also need Jupyter Notebook to open and run the file.
 
-1. Create a virtual environment in your project directory:
+1. Clone the repository and enter the directory
 ``` bash
-python -m venv venv
+git clone git@github.com:saragarzou/xai-bias-detection-credit.git && cd xai-bias-detection-credit
 ```
-2. Activate the virtual environment:
-* On Windows: `venv\Scripts\activate`
-* On macOS/Linux: `source venv/bin/activate`
-3. Install all required dependencies using the requirements file:
+2. Create a virtual environment in your project directory:
+``` bash
+python3 -m venv xai-venv
+```
+3. Activate the virtual environment:
+* On Windows: `xai-venv\Scripts\activate`
+* On macOS/Linux: `source xai-venv/bin/activate`
+  
+4. Install all required dependencies using the requirements file:
 ``` bash
 pip install -r requirements.txt
 ```
+5. Register the environment as a Jupyter Kernel:
+``` bash
+python3 -m ipykernel install --user --name xai-venv --display-name "XAI Bias Detection"
+```
+
 Key libraries included in the requirements:
 * `pandas`
 * `matplotlib`
@@ -39,7 +49,8 @@ To run the code demonstration and reproduce the results:
 jupyter notebook
 ```
 3. In the browser window that opens, navigate to and open the `code.ipynb` file.
-4. Run the cells sequentially, or click **Cell > Run All** (depending on your Jupyter environment) to execute the entire demonstration.
+4. Make sure your kernel is selected: **Kernel > Change Kernel > XAI Bias Detection**
+5. Run the cells sequentially, or click **Cell > Run All** (depending on your Jupyter environment) to execute the entire demonstration.
 
 ## Expected Output
 Running the notebook cells will display the outputs inline:
