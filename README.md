@@ -7,7 +7,7 @@ The code trains a Random Forest model on a credit risk dataset and applies two e
 2. **DiCE (Counterfactual Explanations):** To perform a targeted bias audit on denied female applicants, testing if isolating and flipping protected attributes changes the model's decision.
 
 ## Requirements and Installation
-Ensure you have Python 3.8 or higher installed. You will also need Jupyter Notebook to open and run the file. The following libraries are required:
+Ensure you have Python 3.8 or higher installed. You will also need Jupyter Notebook to open and run the file.
 
 1. Create a virtual environment in your project directory:
 ``` bash
