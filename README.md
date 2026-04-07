@@ -3,8 +3,8 @@ This repository contains the code demonstration for the Explainable AI assignmen
 
 ## Overview
 The code trains a Random Forest model on a credit risk dataset and applies two explanation methods:
-1. **SHAP (Global Feature Attribution):** To understand the overall impact of features like `Age` and `Sex` on loan approval.
-2. **DiCE (Counterfactual Explanations):** To perform a targeted bias audit on denied female applicants, testing if isolating and flipping protected attributes changes the model's decision.
+1. **SHAP (Global Feature Attribution):** To understand the overall impact of features on loan approval.
+2. **DiCE (Counterfactual Explanations):** To perform a targeted bias audit on denied applicants, testing if isolating and flipping protected attributes changes the model's decision.
 
 ## Requirements and Installation
 Ensure you have Python 3.8 or higher installed. You will also need Jupyter Notebook to open and run the file.
